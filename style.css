@@ -1,0 +1,58 @@
+.header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 193, 164);
+    color: black;
+    font-family:'Trebuchet MS', sans-serif
+}
+
+#startButton {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#instructionsButton {
+    background: black;
+    color: white;
+    transition-duration: 0.1s;
+    border-radius: 3px;
+    border: 0px;
+    padding: 15px 10px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -75px;
+}
+
+#instructionsButton:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+#instructionsButton:active {
+    transform: translateY(1px);
+}
+
+.credits {
+    position: fixed;
+    margin-bottom: -10px;
+    bottom: 0;
+    background-color: lightblue;
+    color: rgb(70, 199, 255);
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.instructions_image {
+    width: 80%;
+    display: inline-block;
+}
+
+video {
+    background: url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+}
